@@ -33,7 +33,9 @@ const handleChange =(e)=>{
     return (
       <form onSubmit={handlesubmit}>
         <div className="container-fluid bg-dark text-light" style={{ minHeight: "100vh" }}>
+        <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Contact</h5> {/* Use class for styling */}
 
+<br />
         <div className='container' data-bs-theme="dark">
                     <div className="card border-light mb-3 mx-auto" style={{ maxWidth: "24rem"}}>
 

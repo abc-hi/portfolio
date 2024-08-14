@@ -6,15 +6,19 @@ const Projects = () => {
         window.scrollTo(0, 0);  //when I click on link in footer cursor moves to top of the page
     }, []);
     return (
+        
         <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px"}}>
-            <div class="margin" style={{ marginLeft:"28rem"}}>
-            <span style={{color:"white"}}>           
-<h5>Here you can find some of my projects using MERN Technologies</h5>   </span>     </div>
+
+            <div class="margin" >
+            <span >
+            <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Projects</h5> {/* Use class for styling */} <br />
+           
+<p className="skills-titlepara" style={{color:"white",textAlign:"center"}}>Here you can find some of my projects using MERN stack</p>   </span>     </div>
 <br />
 
 <div className='container'style={{ marginLeft:"23rem"}}>
   <div className='row'>
-  <div className="card" style={{width: "18rem", backgroundColor: "#343a40", color: "#fff"}}>
+  <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
   <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherAppImage.png" alt="Project Screenshot" />
   <div className="card-body">
     <h5 className="card-title">WeatherApp</h5>
@@ -24,7 +28,7 @@ const Projects = () => {
   </div>
 </div>
 
-<div className="card" style={{width: "18rem", backgroundColor: "#343a40", color: "#fff"}}>
+<div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
 <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/itemcatelogimage.png" alt="Project Screenshot" />
 <div className="card-body">
     <h5 className="card-title">ItemCatelog</h5>

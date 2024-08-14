@@ -2,7 +2,7 @@ import React from 'react';
 import Education from './Education.jsx';
 import About from './About.jsx';
 import Skills from './Skills.jsx';
-// import Projects from './Projects.jsx';
+import Projects from './Projects.jsx';
 import Visionary from './Visionary.jsx';
 
 const Home = () => {
@@ -16,8 +16,9 @@ const Home = () => {
         
         <div><About />
         <Skills />
+        <Projects />
+
 <Visionary />        
-{/* <Projects /> */}
             <Education />
         </div>
     );

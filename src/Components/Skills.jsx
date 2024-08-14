@@ -8,14 +8,18 @@ const Skills = () => {
         window.scrollTo(0, 0);  //when I click on link in footer cursor moves to top of the page
     }, []);
     return (
-        <div>
-           
+      <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)'}}>
+        <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Skills</h5> {/* Use class for styling */}
+
             <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
+
             <div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"52vh"}}>
-  <div className="card-body">
+              
+            <div className="card-body">
 
     {/* <h5 className="card-title">Card title</h5> */}
     {/* <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> */}
+    
     <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div class="card">

@@ -9,6 +9,8 @@ const Education = () => {
         <div>
             
             <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
+            <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Education</h5> {/* Use class for styling */}
+            <br />
 
             <div className="container" data-bs-theme="dark">
             <div className='color' data-bs-theme="dark">
