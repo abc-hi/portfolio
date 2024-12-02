@@ -13,7 +13,10 @@ const Projects = () => {
             <span >
             <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Projects</h5> {/* Use class for styling */} <br />
            
-<p className="skills-titlepara" style={{color:"white",textAlign:"center"}}>Here you can find some of my projects using MERN stack</p>   </span>     </div>
+            <p className="skills-titlepara" style={{color:"white",textAlign:"center",marginLeft:"15rem",marginRight:"15rem"}}>
+"My projects demonstrate a strong foundation in building full-stack applications using MongoDB, Express, React, and Node.js. I have successfully implemented user authentication, data management, and responsive design principles to create seamless user experiences. By focusing on code organization, modularity, and scalability, I aim to deliver applications that are both efficient and maintainable. My work reflects my commitment to continuous learning and adapting to new technologies, ensuring that I stay updated with the latest trends and best practices in web development."</p>        
+
+            <p className="skills-titlepara" style={{color:"white",textAlign:"center"}}>Here you can find some of my projects using MERN stack</p>   </span>     </div>
 <br />
 
 <div className='container'style={{ marginLeft:"23rem"}}>

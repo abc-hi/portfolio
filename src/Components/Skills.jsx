@@ -152,24 +152,36 @@ const Skills = () => {
 
   </div>
 </div><br /><br />
-<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"40vh"}}>
+<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"20vh"}}>
   <div className="card-body">
 
 <div className="mx-auto">
 
   <div class="row"><br /><br />
     
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+  {/* <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}> */}
+    {/* <div class="card"> */}
+      {/* <div class="card-body"> */}
+      {/* <span><img src="https://www.svgrepo.com/show/452210/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span> */}
+
+        {/* <h5 class="card-title"></h5> */}
+        {/* <p class="card-text"></p> */}
+        {/* <a href="#" class="btn btn-primary"></a> */}
+      {/* </div> */}
+    {/* </div> */}
+    <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div class="card">
       <div class="card-body">
-      <span><img src="https://www.svgrepo.com/show/452210/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span>
+      <span><img src="https://www.svgrepo.com/show/378786/chrome-devtools.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span>
 
         <h5 class="card-title"></h5>
         <p class="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
-    </div>
+    {/* </div> */}
   </div>
+  </div>
+  
   <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div class="card">
       <div class="card-body">
@@ -196,28 +208,28 @@ const Skills = () => {
 
 
   <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <span><img src="https://www.svgrepo.com/show/331495/netlify.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span>
+  {/* <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}> */}
+    {/* <div class="card"> */}
+      {/* <div class="card-body"> */}
+      {/* <span><img src="https://www.svgrepo.com/show/331495/netlify.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span> */}
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
+        {/* <h5 class="card-title"></h5> */}
+        {/* <p class="card-text"></p> */}
         {/* <a href="#" class="btn btn-primary"></a> */}
-      </div>
-    </div>
-  </div>
+      {/* </div> */}
+    {/* </div> */}
+  {/* </div> */}
 
   <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <span><img src="https://www.svgrepo.com/show/378786/chrome-devtools.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span>
+    {/* <div class="card"> */}
+      {/* <div class="card-body"> */}
+      {/* <span><img src="https://www.svgrepo.com/show/378786/chrome-devtools.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span> */}
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
+        {/* <h5 class="card-title"></h5> */}
+        {/* <p class="card-text"></p> */}
         {/* <a href="#" class="btn btn-primary"></a> */}
-      </div>
-    </div>
+      {/* </div> */}
+    {/* </div> */}
   </div>
   
   </div>
