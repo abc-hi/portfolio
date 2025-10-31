@@ -38,7 +38,7 @@ const Projects = () => {
     <p className="card-text">It is a ecommerce full stack project which is created in MERN stack.</p>
     <p className="card-text">Technologies used : javascript,reactjs,nodejs,mongoDB,CSS,Bootstrap</p>
 
-    <a href="https://itemcatelogfrontcode.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
+    <a href="https://mypjtitemcatelog.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
   </div>
 </div>
 </div>
