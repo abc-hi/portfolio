@@ -26,7 +26,7 @@ const Projects = () => {
   <div className="card-body">
     <h5 className="card-title">WeatherApp</h5>
     <p className="card-text">It is a responsive weather App, I created as a beginner frontend developer</p>
-    <p className="card-text">Technologies used:  reactjs, javascript, tailwind css</p>
+    <p className="card-text">Technologies used:  reactjs, javascript, tailwind CSS, HTML</p>
     <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
   </div>
 </div>
@@ -36,8 +36,8 @@ const Projects = () => {
 " alt="Project Screenshot" />
 <div className="card-body">
     <h5 className="card-title">ItemCatelog</h5>
-    <p className="card-text">It is a ecommerce full stack project which is created in MERN stack.</p>
-    <p className="card-text">Technologies used : javascript,reactjs,nodejs,mongoDB,CSS,Bootstrap</p>
+    <p className="card-text">It is a ecommerce full stack project and created with MERN stack.</p>
+    <p className="card-text">Technologies used : javascript, reactjs, nodejs, mongoDB, CSS, expressjs, Bootstrap, tailwind CSS, HTML</p>
 
     <a href="https://mypjtitemcatelog.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
   </div>
