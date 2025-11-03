@@ -9,7 +9,7 @@ const Projects = () => {
         
         <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px"}}>
 
-            <div class="margin" >
+            <div className="margin" >
             <span >
             <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Projects</h5> {/* Use class for styling */} <br />
            
@@ -32,7 +32,8 @@ const Projects = () => {
 </div>
 
 <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
-<img src="https://github.com/abc-hi/projectimages/blob/main/mypjtitemcatelogImage.png" alt="Project Screenshot" />
+<img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/mypjtitemcatelogImage.png
+" alt="Project Screenshot" />
 <div className="card-body">
     <h5 className="card-title">ItemCatelog</h5>
     <p className="card-text">It is a ecommerce full stack project which is created in MERN stack.</p>
