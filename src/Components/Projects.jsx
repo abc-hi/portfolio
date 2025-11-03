@@ -32,7 +32,7 @@ const Projects = () => {
 </div>
 
 <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
-<img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/itemcatelogimage.png" alt="Project Screenshot" />
+<img src="https://github.com/abc-hi/projectimages/blob/main/mypjtitemcatelogImage.png" alt="Project Screenshot" />
 <div className="card-body">
     <h5 className="card-title">ItemCatelog</h5>
     <p className="card-text">It is a ecommerce full stack project which is created in MERN stack.</p>
