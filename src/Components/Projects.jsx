@@ -22,10 +22,10 @@ const Projects = () => {
 <div className='container'style={{ marginLeft:"23rem"}}>
   <div className='row'>
   <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
-  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherAppImage.png" alt="Project Screenshot" />
+  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherappscreenshot.png" alt="Project Screenshot" />
   <div className="card-body">
     <h5 className="card-title">WeatherApp</h5>
-    <p className="card-text">It is a responsive weather App, I created as a beginner frontend developer</p>
+    <p className="card-text">   A responsive Weather App built as a beginner frontend developer project for learning and practice, based on a tutorial, with some of my own styling customizations.</p>
     <p className="card-text">Technologies used:  reactjs, javascript, tailwind CSS, HTML</p>
     <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
   </div>

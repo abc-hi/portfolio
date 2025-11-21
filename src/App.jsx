@@ -10,6 +10,7 @@ import Home from './Components/Home.jsx';
 import Footer from './Components/Footer.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import Visionary from './Components/Visionary.jsx';
+import WorkExperience from './Components/WorkExperience.jsx';
 
 
 const App = () => {
@@ -27,6 +28,8 @@ const App = () => {
 
         <Route path="/Education" element={<Education />} />
         <Route path="/Visionary" element={<Visionary />}/>
+                <Route path="/WorkExperience" element={<WorkExperience />}/>
+
 
 
         
