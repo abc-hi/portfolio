@@ -175,7 +175,7 @@ const Skills = () => {
       <img
   src="https://cdn.iconscout.com/icon/premium/png-512-thumb/python-language-icon-svg-download-png-3524270.png?f=webp&w=256"
   alt="Phython.js"
-  style={{ width: "4rem", height: "5vh" }}
+  style={{ width: "4rem", height: "3.5vh" }}
 />Phython(basics)
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
@@ -196,7 +196,7 @@ const Skills = () => {
       <div className="card-body">
       <img src="https://cdn.iconscout.com/icon/free/png-512/free-data-management-icon-svg-download-png-2175200.png?f=webp&w=256"
   alt="Dataprocessing"
-  style={{ width: "4rem", height: "5vh" }}/> Data Processing
+  style={{ width: "4rem", height: "3.5vh" }}/> Data Processing
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
@@ -210,7 +210,7 @@ const Skills = () => {
       <div className="card-body">
       <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/machine-learning-icon-svg-download-png-1649561.png?f=webp&w=256"
   alt="MachineLearning"
-  style={{ width: "3rem", height: "5vh" }}/>Machine Learning
+  style={{ width: "3rem", height: "3.5vh" }}/>Machine Learning
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
