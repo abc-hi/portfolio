@@ -162,7 +162,7 @@ const Skills = () => {
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
     </div>
-  </div><br /><br />
+  </div><br />
 
  <div className="row">
 
