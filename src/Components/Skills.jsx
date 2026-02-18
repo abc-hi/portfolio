@@ -186,7 +186,7 @@ const Skills = () => {
   <img
   src="https://cdn.iconscout.com/icon/free/png-512/free-data-management-icon-svg-download-png-2175200.png?f=webp&w=256"
   alt="Express.js"
-  style={{ width: "2rem", height: "auto" }}
+  style={{ width: "0.5rem", height: "auto" }}
 />Data Processing
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
