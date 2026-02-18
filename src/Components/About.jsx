@@ -11,11 +11,12 @@ const About = () => {
             <span style={{color:"white"}}><h1>Hi, I am</h1>
             <h1>Revathi Mohan</h1>
             <h1>I am a</h1>
-        <p>A skilled react developer with a strong portfolio,</p>
-             <p>passionate about staying updated on MERN Stack.</p>
-             <p> Collaborative and committed to quality, you thrive in</p>
-               <p>dynamic teams. Eager to contribute creativity and</p>
-                <p>bring innovative ideas to life. </p></span></div>    
+        <p>I am a skilled React developer with a strong portfolio,</p>
+             <p> passionate about staying updated on the MERN stack and</p>
+               <p>upskilling AI and data-driven technologies(Skillnet, Ireland).</p>
+                <p>Collaborative and committed to delivering high-quality work, </p>
+               <p>I thrive in dynamic teams. I am eager to contribute</p>
+               <p>creativity and bring innovative ideas to life.</p></span></div>    
         </div>
     );
 };

@@ -21,15 +21,7 @@ const Projects = () => {
 
 <div className='container'style={{ marginLeft:"23rem"}}>
   <div className='row'>
-  <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
-  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherappscreenshot.png" alt="Project Screenshot" />
-  <div className="card-body">
-    <h5 className="card-title">WeatherApp</h5>
-    <p className="card-text">   A responsive Weather App built as a beginner frontend developer project for learning and practice, based on a tutorial, with some of my own styling customizations.</p>
-    <p className="card-text">Technologies used:  reactjs, javascript, tailwind CSS, HTML</p>
-    <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
-  </div>
-</div>
+  
 
 <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
 <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/mypjtitemcatelogImage.png
@@ -42,6 +34,34 @@ const Projects = () => {
     <a href="https://mypjtitemcatelog.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
   </div>
 </div>
+
+<div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
+  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/jobportal.png" alt="Project Screenshot" />
+  <div className="card-body">
+    <h5 className="card-title">Job Portal</h5>
+    <p className="card-text">It is a ecommerce full stack project and created with MERN stack.</p>
+    <p className="card-text">Technologies used:javascript, reactjs, nodejs, mongoDB, CSS, expressjs, Bootstrap, HTML</p>
+    <a href="https://revasjobportal.netlify.app/" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
+  </div>
+</div>
+
+
+
+  <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
+  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherappscreenshot.png" alt="Project Screenshot" />
+  <div className="card-body">
+    <h5 className="card-title">WeatherApp</h5>
+    <p className="card-text">   A responsive Weather App built as a beginner frontend developer project for learning and practice, based on a tutorial, with some of my own styling customizations.</p>
+    <p className="card-text">Technologies used:  reactjs, javascript, tailwind CSS, HTML</p>
+    <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
+  </div>
+</div>
+
+
+
+
+
+
 </div>
 
 </div></div>
