@@ -164,7 +164,7 @@ const Skills = () => {
     </div>
   </div><br /><br /><br /><br /><br />
 
-<div className="row">
+{/* <div className="row">
 <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
@@ -176,7 +176,7 @@ const Skills = () => {
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
-      </div>
+      {/* </div>
     </div>
   </div>
   
@@ -191,16 +191,16 @@ const Skills = () => {
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
-      </div>
-    </div>
-  </div>
+      {/* </div> */}
+    {/* </div> */}
+  {/* </div> */}
   
   
 
   
   
   
-  </div>
+  {/* </div>  */}
 
 
 
