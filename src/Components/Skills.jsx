@@ -216,7 +216,7 @@ const Skills = () => {
 
 
 
-<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"20vh"}}>
+<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"35vh"}}>
   <div className="card-body">
 
 <div className="mx-auto">
@@ -265,7 +265,7 @@ const Skills = () => {
 <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
-      <span><img src="https://www.svgrepo.com/show/439173/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span>
+      <span><img src="https://www.svgrepo.com/show/439173/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git</span>
 
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
@@ -345,8 +345,7 @@ const Skills = () => {
         {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
-  </div>
-
+  </div><br /><br /><br /><br /><br />
 
 
 
