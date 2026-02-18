@@ -20,10 +20,10 @@ const Skills = () => {
     {/* <h5 className="card-title">Card title</h5> */}
     {/* <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> */}
     
-    <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+    <div className="row">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
         
       <svg width="25" height="25" viewBox="0 0 630 630" xmlns="http://www.w3.org/2000/svg">
     <rect width="630" height="630" fill="#f7df1e"/>
@@ -31,33 +31,33 @@ const Skills = () => {
 </svg>&nbsp;&nbsp;&nbsp;
 
 
-        <span class="card-title">Javascript</span>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+        <span className="card-title">Javascript(ES6+)</span>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
       <svg width="25" height="25" viewBox="-11.5 -10.23174 23 20.46348" xmlns="http://www.w3.org/2000/svg">
     <circle cx="0" cy="0" r="2.05" fill="#61DAFB"/>
-    <g stroke="#61DAFB" stroke-width="1" fill="none">
+    <g stroke="#61DAFB" strokeWidth="1" fill="none">
         <ellipse rx="11" ry="4.2"/>
         <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
         <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
     </g>
 </svg>&nbsp;&nbsp;
         
-<span class="card-title">ReactJS</span>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+<span className="card-title">ReactJS</span>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
 
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1" x="0px" y="0px" viewBox="0 0 250 250"
@@ -71,51 +71,51 @@ const Skills = () => {
 
 
 
-<span class="card-title">MongoDB</span>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+<span className="card-title">MongoDB</span>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
   
 </div><br /><br /><br />
 
-<div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <span>< img src="https://www.stimulsoft.com/images/blocks/integration/node-js.svg" alt="Node.js Icon"style={{width: "5rem", height:" 5vh"}}/> NodeJS</span>
-          <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+<div className="row">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <span><img src="https://www.stimulsoft.com/images/blocks/integration/node-js.svg" alt="Node.js Icon"style={{width: "5rem", height:" 5vh"}}/> NodeJS</span>
+          <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
       <span><img src="https://www.svgrepo.com/show/331761/sql-database-sql-azure.svg" style={{width: "6rem", height:" 6vh"}}/>SQL</span>
-      <h5 class="card-title"></h5>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+      <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
       <span style={{ display: "inline-flex", alignItems: "center" }}>
         <img 
           src="https://www.svgrepo.com/show/226111/html-files-and-folders.svg" 
           style={{ width: "6rem", height: "6vh", marginRight: "0.1rem", verticalAlign: "middle" }} 
           alt="HTML Logo"
         />
-        <span style={{ margin: 0, padding: 0 }}>html</span>
+        <span style={{ margin: 0, padding: 0 }}>html5</span>
       </span>
 
 
-        {/* <span><h5 class="card-title"></h5></span> */}
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+        {/* <span><h5 className="card-title"></h5></span> */}
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
@@ -123,114 +123,240 @@ const Skills = () => {
 </div><br /><br /><br />
 
 
-<div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+<div className="row">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
       <span ><img src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg" style={{width: "5rem", height:" 5vh"}}/><span style={{  marginLeft:"1px" }}>Bootstrap</span> </span>
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <img src="https://www.svgrepo.com/show/226144/css.svg" alt="CSS Logo" style={{width: "5rem" , height: "5vh"}}/>css
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
+
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <img src="https://www.svgrepo.com/show/226144/css.svg" alt="CSS Logo" style={{width: "5rem" , height: "5vh"}}/>css3
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
   
   
+
+<div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+  <img
+  src="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-icon-svg-download-png-9200748.png?f=webp&w=256"
+  alt="Express.js"
+  style={{ width: "4rem", height: "auto" }}
+/>ExpressJS
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" class="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div><br /><br /><br /><br /><br />
+
+<div className="row">
+<div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+  <img
+  src="https://cdn.iconscout.com/icon/premium/png-512-thumb/python-language-icon-svg-download-png-3524270.png?f=webp&w=256"
+  alt="Express.js"
+  style={{ width: "4rem", height: "auto" }}
+/>Phython(basics)
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" class="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div>
+  
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+  <img
+  src="https://cdn.iconscout.com/icon/free/png-512/free-data-management-icon-svg-download-png-2175200.png?f=webp&w=256"
+  alt="Express.js"
+  style={{ width: "4rem", height: "auto" }}
+/>Data Processing
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" class="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div>
+  
+  
+
+  
+  
+  
+  </div>
+
+
+
+
 </div>
 
-
-  </div>
+ </div>
 </div><br /><br />
+
+
+
+
+
+
+
 <div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"20vh"}}>
   <div className="card-body">
 
 <div className="mx-auto">
 
-  <div class="row"><br /><br />
-    
-  {/* <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}> */}
-    {/* <div class="card"> */}
-      {/* <div class="card-body"> */}
-      {/* <span><img src="https://www.svgrepo.com/show/452210/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span> */}
+  <div className="row"><br /><br />
 
-        {/* <h5 class="card-title"></h5> */}
-        {/* <p class="card-text"></p> */}
-        {/* <a href="#" class="btn btn-primary"></a> */}
-      {/* </div> */}
-    {/* </div> */}
-    <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <span><img src="https://www.svgrepo.com/show/378786/chrome-devtools.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span>
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
-      </div>
-    {/* </div> */}
-  </div>
-  </div>
-  
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
-      <span><img src="https://www.svgrepo.com/show/475654/github-color.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span>
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <span><img src="https://www.svgrepo.com/show/439173/git.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span>
+
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    <div class="card">
-      <div class="card-body">
+
+
+
+  
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <span><img src="https://www.svgrepo.com/show/475654/github-color.svg" style={{width: "5rem" , height: "5vh"}}/>Git Hub</span>
+
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div>
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
       <span><img src="https://www.svgrepo.com/show/374174/vscode-insiders.svg" style={{width: "5rem" , height: "5vh"}}/>VS Code</span>
 
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
-        {/* <a href="#" class="btn btn-primary"></a> */}
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div>
   </div><br /><br />
 
 
-  <div class="row">
-  {/* <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}> */}
-    {/* <div class="card"> */}
-      {/* <div class="card-body"> */}
-      {/* <span><img src="https://www.svgrepo.com/show/331495/netlify.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span> */}
+  <div className="row">
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <span><img src="https://www.svgrepo.com/show/331495/netlify.svg" style={{width: "5rem" , height: "2.5vh"}}/>Netlify</span>
 
-        {/* <h5 class="card-title"></h5> */}
-        {/* <p class="card-text"></p> */}
-        {/* <a href="#" class="btn btn-primary"></a> */}
-      {/* </div> */}
-    {/* </div> */}
-  {/* </div> */}
-
-  <div class="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
-    {/* <div class="card"> */}
-      {/* <div class="card-body"> */}
-      {/* <span><img src="https://www.svgrepo.com/show/378786/chrome-devtools.svg" style={{width: "5rem" , height: "5vh"}}/>Netlify</span> */}
-
-        {/* <h5 class="card-title"></h5> */}
-        {/* <p class="card-text"></p> */}
-        {/* <a href="#" class="btn btn-primary"></a> */}
-      {/* </div> */}
-    {/* </div> */}
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        <a href="#" className="btn btn-primary"></a>
+      </div>
+    </div>
   </div>
+ 
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+      <span><img src="https://www.svgrepo.com/show/354202/postman-icon.svg" style={{width: "5rem" , height: "5vh"}}/>Postman</span>
+
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div>
+
+
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="card">
+      <div className="card-body">
+<span style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+  <img
+  src="https://www.svgrepo.com/show/130725/drag.svg"
+  alt="Render Logo"
+  style={{ width: "4rem", height: "auto" }}
+/>
+  Render
+</span>
+
+        <h5 className="card-title"></h5>
+        <p className="card-text"></p>
+        {/* <a href="#" className="btn btn-primary"></a> */}
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+
+
+    
+    
+  </div>
+  
   
   </div>
   </div>
@@ -248,6 +374,7 @@ const Skills = () => {
 
             
         </div>
+        
     );
 };
 
