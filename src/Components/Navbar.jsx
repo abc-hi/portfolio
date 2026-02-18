@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to="/Skills" class="nav-link active" aria-current="page" href="#">Skills</Link>
                         <Link to="/WorkExperience" class="nav-link active" aria-current="page" href="#">Work Experience</Link>
         <Link to="/Projects" class="nav-link active" aria-current="page" href="#">Projects</Link>
-
+   <Link to="/Certifications" class="nav-link active" aria-current="page" href="#">Certifications</Link>
         <Link to="/Visionary" class="nav-link active" aria-current="page" href="#">Visionary</Link>
 
         <Link to="/Education" class="nav-link active" aria-current="page" href="#">Education</Link>

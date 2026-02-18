@@ -11,6 +11,7 @@ import Footer from './Components/Footer.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import Visionary from './Components/Visionary.jsx';
 import WorkExperience from './Components/WorkExperience.jsx';
+import Certifications from './Components/Certifications.jsx';
 
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
         <Route path="/About" element={<About />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Projects" element={<Projects/>} />
-
+<Route path="/Certifications" element={<Certifications/>} />
         <Route path="/Education" element={<Education />} />
         <Route path="/Visionary" element={<Visionary />}/>
                 <Route path="/WorkExperience" element={<WorkExperience />}/>

@@ -6,7 +6,7 @@ const WorkExperience = () => {
                         <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
                         <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Work Experience</h5> {/* Use class for styling */}
 <br />
-            <div className="card mx-auto" data-bs-theme="dark" style={{maxWidth:"38rem"}}>
+            <div className="card mx-auto" data-bs-theme="dark" style={{maxWidth:"66rem"}}>
            
   <div className="card-body">
     
@@ -25,7 +25,7 @@ const WorkExperience = () => {
     
   </div>    
 </div><br />
-<div className="card mx-auto" data-bs-theme="dark" style={{maxWidth:"38rem"}}>
+<div className="card mx-auto" data-bs-theme="dark" style={{maxWidth:"66rem"}}>
   <div className="card-body">
     <h4 className="card-title">Wipro Technologies Project Engineer Chennai, India | 2011 - 2015</h4>
     
