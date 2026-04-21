@@ -19,7 +19,7 @@ const Projects = () => {
             <p className="skills-titlepara" style={{color:"white",textAlign:"center"}}>Here you can find some of my projects using MERN stack</p>   </span>     </div>
 <br />
 
-<div className='container'style={{ marginLeft:"24rem"}}>
+<div className='container'style={{ marginLeft:"26rem"}}>
   <div className='row'>
   
 
