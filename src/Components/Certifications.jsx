@@ -16,7 +16,7 @@ const Certifications = () => {
     <h5 className="card-title">Certifications Done:</h5><br />
     <h5 className="card-subtitle mb-1 text-body-primary">MERN STACK at GUVI, India</h5><br />
 <h5 className="card-subtitle mb-1 text-body-primary">
-  AI Catalyst Program – Skillnet, Ireland (Expected Completion: April 2026)
+  AI Catalyst Program – Skillnet, Ireland 
 </h5>    
   </div>    
 </div><br />

@@ -19,7 +19,7 @@ const Projects = () => {
             <p className="skills-titlepara" style={{color:"white",textAlign:"center"}}>Here you can find some of my projects using MERN stack</p>   </span>     </div>
 <br />
 
-<div className='container'style={{ marginLeft:"23rem"}}>
+<div className='container'style={{ marginLeft:"8rem"}}>
   <div className='row'>
   
 
@@ -57,6 +57,16 @@ const Projects = () => {
   </div>
 </div>
 
+
+  <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
+  <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/chatbot_screenshot.png" alt="Project Screenshot" />
+  <div className="card-body">
+    <h5 className="card-title">RAG Based career Assistant Chatbot</h5>
+    <p className="card-text"> Developed a RAG-based AI Career Assistant Chatbot using FAISS, embeddings, and LLM integration to suggest job roles based on user skills.</p>
+    <p className="card-text"> Built with FastAPI and Streamlit, with backend exposed via ngrok for real-time connectivity and testing.</p>
+    {/* <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a> */}
+  </div>
+</div>
 
 
 

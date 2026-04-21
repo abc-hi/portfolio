@@ -12,7 +12,7 @@ const Visionary = () => {
     
     <h5 className="card-title">Personalisation</h5>
     <h6 className="card-subtitle mb-2 text-body-secondary">A glimpses of my motivality</h6>
-    <p className="card-text">I thrive on challenges that push the boundaries of IT. Curiosity drives me to explore new technologies and find creative solutions. From coding to design and everything in between, my skill set includes React, Node.js, MongoDB, SQL, and JavaScript, honed through hands-on experience and continuous learning. I am currently upskilling in AI, learning data cleaning, visualization, and machine learning concepts, and I aim to combine my MERN Stack expertise with AI to build impactful and intelligent solutions.</p>
+    <p className="card-text">I thrive on challenges that push the boundaries of IT. Curiosity drives me to explore new technologies and find creative solutions. From coding to design and everything in between, my skill set includes React, Node.js, MongoDB, SQL, and JavaScript, honed through hands-on experience and continuous learning. I have completed the AI Catalyst Program (Digital Skillnet Ireland), where I gained practical exposure to AI concepts such as data processing, embeddings, vector search, and machine learning fundamentals. I aim to combine my MERN Stack expertise with AI to build impactful and intelligent solutions.</p>
     
   </div>    
 </div><br />
@@ -20,7 +20,7 @@ const Visionary = () => {
   <div className="card-body">
     <h5 className="card-title">Reason to hire me</h5>
     <h6 className="card-subtitle mb-2 text-body-secondary">What sets me apart</h6>
-    <p className="card-text">I am deeply passionate about coding and approach every project with enthusiasm and commitment, ensuring excellence in every aspect. My knack for solving complex problems and finding innovative solutions allows me to tackle challenges effectively, whether in web development or AI-driven projects, driving impactful outcomes and delivering value to any team I join.</p>
+    <p className="card-text">I am passionate about coding and consistently approach every project with dedication and a problem-solving mindset. I enjoy breaking down complex challenges and finding practical, efficient solutions, whether in web development or AI-driven projects. With hands-on experience in full-stack development and continuous learning in AI, I focus on building meaningful and impactful solutions that add value to any team.</p>
   
   </div>
 </div>
