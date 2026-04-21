@@ -14,7 +14,7 @@ const Skills = () => {
 
             <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
 
-            <div className="card mx-auto" data-bs-theme="dark" style={{width: "42rem", height:"87vh"}}>
+            <div className="card mx-auto" data-bs-theme="dark" style={{width: "42rem"}}>
               
             <div className="card-body">
 
@@ -507,10 +507,7 @@ const Skills = () => {
   
   
   </div>
-    
-    
-  
-  </div>
+           </div>
 </div>
 
             
