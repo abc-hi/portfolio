@@ -150,7 +150,6 @@ const Skills = () => {
   </div>
   
   
-
 <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
@@ -167,10 +166,6 @@ const Skills = () => {
   </div><br /><br /><br /><br />
 
  <div className="row">
-
-
-
-
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
@@ -186,13 +181,6 @@ const Skills = () => {
     </div>
   </div>
 
-  
-
-
-
-
-
-
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
@@ -205,7 +193,6 @@ const Skills = () => {
       </div>
     </div>
   </div><br /><br /><br /><br /><br /><br />
-
 
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 1vh"}}>
     <div className="card">
@@ -286,31 +273,10 @@ const Skills = () => {
     </div>
   </div>
 
-
-
-
-
-
-  
-  
-  
-
-  
-  
-  
-  </div>  
-
-
-
-
+    </div>  
 </div>
-
  </div>
 </div><br /><br />
-
-
-
-
 
 {/* tool skill container start */}
 
@@ -320,45 +286,6 @@ const Skills = () => {
 <div className="mx-auto">
 
   <div className="row"><br /><br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
@@ -371,9 +298,6 @@ const Skills = () => {
       </div>
     </div>
   </div>
-
-
-
   
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
@@ -398,7 +322,6 @@ const Skills = () => {
     </div>
   </div>
   </div><br /><br />
-
 
   <div className="row">
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
@@ -445,12 +368,9 @@ const Skills = () => {
     </div>
   </div><br /><br /><br /><br /><br />
 
-
-
   {/* ngrok */}
 
-  
-  <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
+    <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
     <div className="card">
       <div className="card-body">
 <span style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -461,14 +381,12 @@ const Skills = () => {
 />
   ngrok
 </span>
-
         <h5 className="card-title"></h5>
         <p className="card-text"></p>
         {/* <a href="#" className="btn btn-primary"></a> */}
       </div>
     </div>
   </div><br /><br /><br /><br /><br />
-
 
 {/* streamlit cloud */}
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
@@ -490,28 +408,16 @@ const Skills = () => {
     </div>
   </div><br /><br /><br /><br /><br />
 
-
-
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
 
-
-    
-    
+    </div>
+      </div>
   </div>
-  
-  
-  </div>
-  </div>
-
-  
-
-  
-  
+   
   </div>
            </div>
 </div>
-
-            
+          
         </div>
         
     );
