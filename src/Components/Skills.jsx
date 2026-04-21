@@ -8,12 +8,13 @@ const Skills = () => {
         window.scrollTo(0, 0);  //when I click on link in footer cursor moves to top of the page
     }, []);
     return (
+      // tech skills container start
       <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)'}}>
         <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Skills</h5> {/* Use class for styling */}
 
             <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
 
-            <div className="card mx-auto" data-bs-theme="dark" style={{width: "42rem", height:"91vh"}}>
+            <div className="card mx-auto" data-bs-theme="dark" style={{width: "42rem", height:"87vh"}}>
               
             <div className="card-body">
 
@@ -310,9 +311,9 @@ const Skills = () => {
 
 
 
+{/* tool skill container start */}
 
-
-<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"52vh"}}>
+<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"48vh"}}>
   <div className="card-body">
 
 <div className="mx-auto">
