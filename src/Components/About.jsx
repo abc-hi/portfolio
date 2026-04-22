@@ -11,7 +11,7 @@ const About = () => {
             <span style={{color:"white"}}><h1>Hi, I am</h1>
             <h1>Revathi Mohan</h1>
             <h1>I am a</h1>
-        <div style={{ fontSize: "18px" }}><p>Skilled React developer with a strong portfolio,</p>
+        <div style={{ fontSize: "20px" }}><p>Skilled React developer with a strong portfolio,</p>
              <p> and a focus on MERN stack development. I have</p>
                <p>completed an AI Catalyst Program (Skillnet, Ireland).</p>
                 <p>and gained exposure to AI and data-driven technologies.</p>
