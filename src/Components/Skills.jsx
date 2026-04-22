@@ -768,7 +768,7 @@ const Skills = () => {
       </div>
     </div>
   </div>
-  </div><br /><br />
+  </div><br /><br /><br />
 
   <div className="row">
   <div className="col-sm-6 mb-3 mb-sm-0"style={{width: "13rem", height:" 2vh"}}>
