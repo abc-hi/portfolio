@@ -1,6 +1,6 @@
 
 html {
-  font-size: 18px; /* default is 16px → increase here */
+  font-size: 20px; /* default is 16px → increase here */
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
