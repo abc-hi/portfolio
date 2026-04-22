@@ -13,7 +13,7 @@ const Certifications = () => {
            
   <div className="card-body">
     
-    <h5 className="card-title">Certifications Done:</h5><br />
+    <h5 className="card-title" style={{fontSize:"24px"}}>Certifications Done:</h5><br />
     <h5 className="card-subtitle mb-1 text-body-primary">MERN STACK at GUVI, India</h5><br />
 <h5 className="card-subtitle mb-1 text-body-primary">
   AI Catalyst Program – Skillnet, Ireland 
