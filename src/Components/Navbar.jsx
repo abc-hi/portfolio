@@ -11,7 +11,7 @@ const Navbar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav mx-auto">
+      <div class="navbar-nav mx-auto" style={{fontSize:"24px"}}>
         <Link to="/About" class="nav-link active" aria-current="page" href="#">About</Link>
 
         <Link to="/Skills" class="nav-link active" aria-current="page" href="#">Skills</Link>

@@ -458,7 +458,7 @@ const Skills = () => {
     return (
       // tech skills container start
       <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)'}}>
-        <h5 className="skills-title" style={{color:"white",textAlign:"center"}}>Skills</h5> {/* Use class for styling */}
+        <h5 className="skills-title" style={{color:"white",textAlign:"center",fontSize:"24px"}}>Skills</h5> {/* Use class for styling */}
 
             <div className="page-container" style={{ backgroundColor: 'var(--bs-dark)', padding: "20px" }}>
 
