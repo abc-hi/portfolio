@@ -10,12 +10,8 @@ const Navbar = () => {
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    {/* <div className="collapse navbar-collapse" id="navbarNavAltMarkup"> */}
-            <div className="collapse navbar-collapse" id="navbarNav">
-
-      {/* <div className="navbar-nav mx-auto" style={{fontSize:"24px"}}> */}
-                <div className="navbar-nav mx-auto text-center gap-2 gap-lg-4">
-
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav mx-auto" style={{fontSize:"24px"}}>
         <Link to="/About" className="nav-link active" aria-current="page" href="#">About</Link>
 
         <Link to="/Skills" className="nav-link active" aria-current="page" href="#">Skills</Link>
