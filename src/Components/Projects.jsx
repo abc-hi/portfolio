@@ -27,7 +27,7 @@ const Projects = () => {
 <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/mypjtitemcatelogImage.png
 " alt="Project Screenshot" />
 <div className="card-body">
-    <div style={{ fontSize: "26px" }}> <h5 className="card-title">ItemCatelog</h5></div>
+    <h5 className="card-title" style={{fontSize: "24px"}}>ItemCatelog</h5><br />
     <div style={{ fontSize: "20px" }}><p className="card-text">It is a ecommerce full stack project and created with MERN stack.</p>
     <p className="card-text">Technologies used : javascript, reactjs, nodejs, mongoDB, CSS, expressjs, Bootstrap, tailwind CSS, HTML</p>
 
@@ -38,7 +38,7 @@ const Projects = () => {
 <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
   <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/jobportal.png" alt="Project Screenshot" />
   <div className="card-body">
-    <div style={{ fontSize: "26px" }}> <h5 className="card-title">Job Portal</h5></div>
+   <h5 className="card-title" style={{fontSize: "24px"}}>Job Portal</h5><br />
     <div style={{ fontSize: "20px" }}><p className="card-text">It is a ecommerce full stack project and created with MERN stack.</p>
     <p className="card-text">Technologies used:javascript, reactjs, nodejs, mongoDB, CSS, expressjs, Bootstrap, HTML</p>
     <a href="https://revasjobportal.netlify.app/" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
@@ -50,7 +50,7 @@ const Projects = () => {
   <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
   <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/weatherappscreenshot.png" alt="Project Screenshot" />
   <div className="card-body">
-    <div style={{ fontSize: "26px" }}> <h5 className="card-title">WeatherApp</h5></div>
+     <h5 className="card-title" style={{fontSize: "24px"}}>WeatherApp</h5><br />
    <div style={{ fontSize: "20px" }}><p className="card-text">   A responsive Weather App built as a beginner frontend developer project for learning and practice, based on a tutorial, with some of my own styling customizations.</p>
     <p className="card-text">Technologies used:  reactjs, javascript, tailwind CSS, HTML</p>
     <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a>
@@ -61,7 +61,7 @@ const Projects = () => {
   <div className="card" style={{width: "18rem", backgroundColor: "var(--bs-dark)", color: "#fff"}}>
   <img src="https://raw.githubusercontent.com/abc-hi/projectimages/main/chatbot_screenshot.png" alt="Project Screenshot" />
   <div className="card-body">
-    <div style={{ fontSize: "26px" }}> <h5 className="card-title">RAG Based career Assistant Chatbot</h5></div>
+ <h5 className="card-title" style={{fontSize: "24px"}}>RAG Based career Assistant Chatbot</h5><br />
     <div style={{ fontSize: "20px" }}><p className="card-text"> Developed a RAG-based AI Career Assistant Chatbot using FAISS, embeddings, and LLM integration to suggest job roles based on user skills.</p>
     <p className="card-text"> Built with FastAPI and Streamlit, with backend exposed via ngrok for real-time connectivity and testing.</p>
     {/* <a href="https://revasweatherapplication.netlify.app" className="btn btn-primary" style={{ backgroundColor: "#1b1b2a"}}>Link to Project</a> */}
