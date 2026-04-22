@@ -528,7 +528,7 @@ const Skills = () => {
   
 </div><br /><br /><br />
 
-<div className="row">
+<div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
       <div className="card-body p-2 d-flex align-items-center justify-content-center gap-2">
@@ -571,7 +571,7 @@ const Skills = () => {
 </div><br /><br /><br />
 
 
-<div className="row">
+<div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
       <div className="card-body p-2 d-flex align-items-center justify-content-center gap-2">
@@ -611,7 +611,7 @@ const Skills = () => {
     </div>
   </div><br /><br /><br /><br />
 
- <div className="row">
+ <div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
       <div className="card-body p-2 d-flex align-items-center justify-content-center gap-2">
@@ -652,7 +652,7 @@ const Skills = () => {
       </div>
     </div>
   </div>
-    {/* streamlit */}
+    {/* streamlit */}<div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
       <div className="card-body p-2 d-flex align-items-center justify-content-center gap-2">
@@ -691,9 +691,10 @@ const Skills = () => {
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
     </div>
-  </div>
+  </div></div>
 <br /><br /><br /><br />
 {/* ollama */}
+<div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
       <div className="card-body p-2 d-flex align-items-center justify-content-center gap-2">
@@ -722,7 +723,7 @@ const Skills = () => {
     </div>  
 </div>
  </div>
-</div><br /><br />
+</div></div><br /><br />
 
 {/* tool skill container start */}
 
