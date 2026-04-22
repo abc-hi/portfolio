@@ -33,7 +33,7 @@ const handleChange =(e)=>{
     return (
       <form onSubmit={handlesubmit}>
         <div className="container-fluid bg-dark text-light" style={{ minHeight: "100vh" }}>
-        <h5 className="skills-title" style={{color:"white",textAlign:"center", fontSize:'20px'}}>Contact</h5> {/* Use class for styling */}
+        <h5 className="skills-title" style={{color:"white",textAlign:"center", fontSize:'24px'}}>Contact</h5> {/* Use class for styling */}
 
 <br />
         <div className='container' data-bs-theme="dark">
@@ -42,15 +42,15 @@ const handleChange =(e)=>{
                 <div className="mb-3" style={{fontSize:"20px"}}>
                 <label className="text-center d-block mb-4">Contact Me</label>
                
-                <input type="text" className="form-control" style={{ maxWidth: "20rem"}}id="exampleFormControlInput1" placeholder="Enter your name" name="name" value={formData.value} onChange={handleChange} required /><br />
-  <input type="email" className="form-control" style={{ maxWidth: "20rem"}} id="exampleFormControlInput1"  placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange}required /><br />
-  <input type="text" className="form-control"  style={{ maxWidth: "20rem"}} id="exampleFormControlInput1" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange}required />
+                <input type="text" className="form-control" style={{ maxWidth: "20rem",fontSize:"20px"}}id="exampleFormControlInput1" placeholder="Enter your name" name="name" value={formData.value} onChange={handleChange} required /><br />
+  <input type="email" className="form-control" style={{ maxWidth: "20rem",fontSize:"20px"}} id="exampleFormControlInput1"  placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange}required /><br />
+  <input type="text" className="form-control"  style={{ maxWidth: "20rem",fontSize:"20px"}} id="exampleFormControlInput1" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange}required />
 
 
 </div>
-<div className="mb-3" style={{fontSize:"20px"}}>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Message" name="message" value={formData.message} onChange={handleChange} required></textarea>
-  <button type='submit' className="btn btn-primary d-block mx-auto" >send</button>
+<div className="mb-3">
+  <textarea className="form-control" style={{fontSize:"20px"}} id="exampleFormControlTextarea1" rows="3"  placeholder="Message" name="message" value={formData.message} onChange={handleChange} required></textarea>
+  <button type='submit' style ={{fontSize:"20px"}} className="btn btn-primary d-block mx-auto" >send</button>
 </div></div>
         </div></div></form>
     );
