@@ -12,6 +12,7 @@ const Home = () => {
     return (
 
 
+    <div className="min-vh-100" style={{ backgroundColor: 'var(--bs-dark)'}}>
 
         
         <div><About />
@@ -20,7 +21,7 @@ const Home = () => {
 
 <Visionary />        
             <Education />
-        </div>
+        </div></div>
     );
 };
 
