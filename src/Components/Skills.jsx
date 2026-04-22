@@ -727,7 +727,7 @@ const Skills = () => {
 
 {/* tool skill container start */}
 
-<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem", height:"48vh"}}>
+<div className="card mx-auto" data-bs-theme="dark" style={{width: "40rem"}}>
   <div className="card-body">
 
 <div className="mx-auto">
