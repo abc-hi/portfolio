@@ -16,7 +16,6 @@ import Certifications from './Components/Certifications.jsx';
 
 const App = () => {
   return (
-    <div style={{ fontSize: "18px" }}>
       
       <BrowserRouter >
       <Navbar />
