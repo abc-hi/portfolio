@@ -638,7 +638,7 @@ const Skills = () => {
         {/* <a href="#" class="btn btn-primary"></a> */}
       </div>
     </div>
-  </div><br /><br /><br /><br /><br /><br />
+  </div>
 
   <div className="col-12 col-sm-6 col-md-4">
     <div className="card w-100" style={{ minHeight: "80px" }}>
@@ -692,7 +692,7 @@ const Skills = () => {
       </div>
     </div>
   </div></div>
-<br /><br /><br /><br />
+<br />
 {/* ollama */}
 <div className="row g-3">
   <div className="col-12 col-sm-6 col-md-4">
