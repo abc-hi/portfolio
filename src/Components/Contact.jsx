@@ -22,7 +22,7 @@ const handleChange =(e)=>{
     e.preventDefault();
 
     // await axios.post("http://localhost:4000/api/send",formData )
-    await axios.post("https://portfoliobackend-1-huzo.onrender.com",formData )
+    await axios.post("https://portfoliobackend-1-huzo.onrender.com/api/send",formData )
       
    
     .then(res=>setResponse(res.data))
