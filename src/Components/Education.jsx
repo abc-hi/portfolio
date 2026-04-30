@@ -44,7 +44,7 @@ Continual learning is key to my growth. I actively participated and won certific
 
   <div className="card-body" style={{fontSize:"20px"}}>
     <h5 className="card-title">Grade: 97%</h5>
-    <p className="card-text">During my SSLC years, I consistently excelled in all the Subjects earning recognition of District Rank Holder.Beyond academics, I actively participated in Essay competitions, Speech competitions and waon certificats. I handeled the school leader position that enhanced my teamwork and leadership skills.</p>
+    <p className="card-text">During my SSLC years, I consistently excelled in all the Subjects earning recognition of District Rank Holder.Beyond academics, I actively participated in Essay competitions, Speech competitions and won certificates. I handeled the school leader position that enhanced my teamwork and leadership skills.</p>
   </div>
 </div>
 

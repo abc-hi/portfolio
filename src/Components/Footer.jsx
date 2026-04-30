@@ -23,7 +23,7 @@ const handleLinkedin=()=>{
 
 }
 const handleEmail=()=>{
-    window.location.href = "mailto:revathimohancse@gmail.com";
+    window.location.href = "mailto:revathimohancse@gmail.com";            //window.location.href means go to this current url
 
 }
 const handleWhatsapp =()=>{
@@ -45,7 +45,7 @@ const handleWhatsapp =()=>{
             padding: '70px 0' 
         }}> 
 
-            <div className="container text-center " >
+            <div className="container text-center " ><br />
                 <h5 className="mb-3">Revathi Mohan</h5>
                 <div className="d-flex justify-content-center">
                     <Link to="/About" className="text-white mx-2">About</Link>

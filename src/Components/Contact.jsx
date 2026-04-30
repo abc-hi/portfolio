@@ -15,7 +15,7 @@ const[response,setResponse]=useState(null)
 
 const handleChange =(e)=>{
     const{name,value}=e.target;
-    setFormData({...formData,[name]:value})
+    setFormData({...formData,[name]:value})               //[name] here breacket is used Because it's a dynamic key for all input like name,email,subject,message,.
   }
 
   const handlesubmit=async(e)=>{
@@ -42,7 +42,7 @@ const handleChange =(e)=>{
                 <div className="mb-3" style={{fontSize:"20px"}}>
                 <label className="text-center d-block mb-4">Contact Me</label>
                
-                <input type="text" className="form-control" style={{ maxWidth: "20rem",fontSize:"20px"}}id="exampleFormControlInput1" placeholder="Enter your name" name="name" value={formData.value} onChange={handleChange} required /><br />
+                <input type="text" className="form-control" style={{ maxWidth: "20rem",fontSize:"20px"}}id="exampleFormControlInput1" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} required /><br />
   <input type="email" className="form-control" style={{ maxWidth: "20rem",fontSize:"20px"}} id="exampleFormControlInput1"  placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange}required /><br />
   <input type="text" className="form-control"  style={{ maxWidth: "20rem",fontSize:"20px"}} id="exampleFormControlInput1" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange}required />
 

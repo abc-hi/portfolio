@@ -18,6 +18,7 @@ const App = () => {
   return (
       
       <BrowserRouter >
+      <ScrollToTop>
       <Navbar />
 
       <Routes>
@@ -37,8 +38,9 @@ const App = () => {
         </Routes>
 
         <Contact />
-        <ScrollToTop />
+     
         < Footer />
+        </ScrollToTop>
         </BrowserRouter>
         
         
